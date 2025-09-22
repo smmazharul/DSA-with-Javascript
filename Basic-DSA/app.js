@@ -3,4 +3,7 @@
 
 let a = 5;
 let b = "10";
-console.log(a + b);
+console.log(a + parseInt(b));
+
+// here we tried to add number and string, so it will concatenate them instead of adding them
+// to fix this we can convert string to number using parseInt or Number function
